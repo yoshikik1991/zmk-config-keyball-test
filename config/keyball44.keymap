@@ -70,10 +70,10 @@
 
         adjust_layer {
             bindings = <
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &kp Y                           &kp U            &kp I      &kp O       &kp P        &kp MINUS
-&kp TAB    &kp A         &kp S         &kp D         &kp F              &none            &rgb_ug RGB_COLOR_HSB(0,0,100)  &kp J            &kp K      &kp L       &kp SEMI     &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V              &out OUT_TOG     &rgb_ug RGB_TOG                 &kp M            &kp COMMA  &kp PERIOD  &kp SLASH    &kp BSLH
-           &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &hankakuzenkaku  &rgb_ug RGB_EFR                 &rgb_ug RGB_EFF                         &bootloader
+&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4  &kp Y                           &kp U            &kp I      &kp O       &kp P        &kp MINUS
+&kp TAB    &kp A         &kp S         &kp D         &kp F              &none         &rgb_ug RGB_COLOR_HSB(0,0,100)  &kp J            &kp K      &kp L       &kp SEMI     &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V              &out OUT_TOG  &rgb_ug RGB_TOG                 &kp M            &kp COMMA  &kp PERIOD  &kp SLASH    &kp BSLH
+           &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &jp_lang      &rgb_ug RGB_EFR                 &rgb_ug RGB_EFF                         &bootloader
             >;
         };
     };
