@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: pmw33xx
-      url-base: https://github.com/Luberry
+      url-base: https://github.com/yoshikik1991/zmk
   projects:
     - name: zmk
        remote: pmw33xx
