@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/Luberry
   projects:
     - name: zmk
-       remote: pmw33xx
+       remote: zmk
        revision: pmw3389
        import: app/west.yml
   self:
