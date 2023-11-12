@@ -52,10 +52,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp Q     &kp KP_N1  &kp KP_NUMBER_2    &kp KP_N3  &kp T      &kp Y     &kp U      &kp I      &kp O       &kp P      &kp MINUS
-&kp TAB    &kp A     &kp KP_N4  &kp KP_NUMBER_5    &kp N7     &kp G      &kp H     &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp N8     &kp N9             &kp N0     &kp B      &kp N     &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
-           &kp LALT  &kp LCTRL  &ext_power EP_TOG  &kp SPACE  &kp LANG5  &kp BSPC  &kp ENTER                         &kp LWIN
+&kp ESC    &kp Q     &kp N1        &kp N2  &kp N3        &kp T  &kp Y     &kp U      &kp I      &kp O       &kp P      &kp MINUS
+&kp TAB    &kp A     &kp N4        &kp N5  &kp N6        &kp G  &kp H     &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z     &kp NUMBER_7  &kp N8  &kp N9        &kp B  &kp N     &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
+           &kp LALT  &kp LCTRL     &none   &kp NUMBER_0  &none  &kp BSPC  &kp ENTER                         &kp LWIN
             >;
         };
 
