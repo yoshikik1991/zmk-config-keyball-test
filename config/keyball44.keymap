@@ -46,34 +46,25 @@
 &kp ESC    &kp Q     &kp W             &kp E  &kp R      &kp T     &kp Y     &kp U                   &kp I      &kp O       &kp P      &kp MINUS
 &kp TAB    &kp A     &kp S             &kp D  &kp F      &kp G     &kp H     &kp J                   &kp K      &kp L       &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z     &kp X             &kp C  &kp V      &kp B     &kp N     &kp M                   &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
-           &kp LALT  &kp LEFT_CONTROL  &mo 3  &kp SPACE  &jp_lang  &kp BSPC  &hold_mo_layer 2 ENTER                         &kp LWIN
+           &kp LALT  &kp LEFT_CONTROL  &mo 2  &kp SPACE  &jp_lang  &kp BSPC  &hold_mo_layer 1 ENTER                         &kp LWIN
             >;
         };
 
         lower_layer {
             bindings = <
-&none  &none  &kp N1        &kp N2  &kp N3        &none  &none     &none      &none  &none  &none  &none
-&none  &none  &kp N4        &kp N5  &kp N6        &none  &none     &none      &none  &none  &none  &none
-&none  &none  &kp NUMBER_7  &kp N8  &kp N9        &none  &none     &none      &none  &none  &none  &none
-       &none  &none         &none   &kp NUMBER_0  &none  &kp BSPC  &kp ENTER                &none
-            >;
-        };
-
-        raise_layer {
-            bindings = <
-&kp ESC    &kp Q     &kp W      &kp E              &kp R      &kp T      &kp Y     &kp U      &kp I      &kp O       &kp P      &kp MINUS
-&kp TAB    &kp A     &kp S      &kp D              &kp F      &kp G      &kp H     &kp J      &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X      &kp C              &kp V      &kp B      &kp N     &kp M      &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
-           &kp LALT  &kp LCTRL  &ext_power EP_TOG  &kp SPACE  &kp LANG5  &kp BSPC  &kp ENTER                         &kp LWIN
+&none  &none  &kp N1        &kp N2  &kp N3        &none  &none     &none           &mmv MOVE_UP    &none            &none  &none
+&none  &none  &kp N4        &kp N5  &kp N6        &none  &none     &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none  &none
+&none  &none  &kp NUMBER_7  &kp N8  &kp N9        &none  &none     &none           &mmv MOVE_DOWN  &none            &none  &none
+       &none  &none         &none   &kp NUMBER_0  &none  &kp BSPC  &kp ENTER                                        &none
             >;
         };
 
         adjust_layer {
             bindings = <
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4  &kp Y                           &kp U            &kp I      &kp O       &kp P        &kp MINUS
-&kp TAB    &kp A         &kp S         &kp D         &kp F              &none         &rgb_ug RGB_COLOR_HSB(0,0,100)  &kp J            &kp K      &kp L       &kp SEMI     &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V              &out OUT_TOG  &rgb_ug RGB_TOG                 &kp M            &kp COMMA  &kp PERIOD  &kp SLASH    &kp BSLH
-           &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &jp_lang      &rgb_ug RGB_EFR                 &rgb_ug RGB_EFF                         &bootloader
+&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &none            &none            &none             &none     &none        &none
+&kp TAB    &kp A         &kp S         &kp D         &kp F              &none            &mkp MB4         &mkp MB1         &mwh SCROLL_UP    &mkp MB2  &none        &none
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V              &out OUT_TOG     &mkp MB5         &none            &mwh SCROLL_DOWN  &none     &none        &none
+           &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF                              &bootloader
             >;
         };
     };
