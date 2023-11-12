@@ -1,13 +1,11 @@
-manifest:
+ manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: pmw33xx
-      url-base: https://github.com/Luberry
+      url-base: https://github.com/yoshikik1991
   projects:
     - name: zmk
-       remote: pmw33xx
-       revision: pmw3389
-       import: app/west.yml
+      remote: zmkfirmware
+      revision: pmw3389
+      import: app/west.yml
   self:
     path: config
