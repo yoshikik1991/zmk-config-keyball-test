@@ -1,11 +1,11 @@
  manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/yoshikik1991
+      url-base: https://github.com/ufan
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: pmw3389
+      revision: ptdevice-refactor
       import: app/west.yml
   self:
     path: config
