@@ -45,7 +45,7 @@
             bindings = <
 &kp ESC    &kp Q     &kp W             &kp E  &kp R      &kp T     &kp Y     &kp U                   &kp I      &kp O       &kp P      &kp MINUS
 &kp TAB    &kp A     &kp S             &kp D  &kp F      &kp G     &kp H     &kp J                   &kp K      &kp L       &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z     &kp X             &kp C  &kp V      &kp V     &kp N     &kp M                   &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
+&kp LSHFT  &kp Z     &kp X             &kp C  &kp V      &kp B     &kp N     &kp M                   &kp COMMA  &kp PERIOD  &kp SLASH  &kp BSLH
            &kp LALT  &kp LEFT_CONTROL  &mo 3  &kp SPACE  &jp_lang  &kp BSPC  &hold_mo_layer 1 ENTER                         &kp LWIN
             >;
         };
