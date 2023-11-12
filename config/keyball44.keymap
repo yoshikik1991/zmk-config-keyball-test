@@ -70,10 +70,10 @@
 
         adjust_layer {
             bindings = <
-&trans     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &none            &none            &none             &none     &none        &none
- &none            &none            &none             &none     &none        &none    &mkp MB4         &mkp MB1         &mwh SCROLL_UP    &mkp MB2  &none        &none
- &none            &none            &none             &none     &none         &out OUT_TOG     &mkp MB5         &none            &mwh SCROLL_DOWN  &none     &none        &none
-           &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF                              &bootloader
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4     &none            &none            &none  &none  &none        &none
+&none   &none         &none         &none         &none              &none            &none            &none            &none  &none  &none        &none
+&none   &none         &none         &none         &none              &out OUT_TOG     &none            &none            &none  &none  &none        &none
+        &sys_reset    &bt BT_CLR    &none         &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF                &bootloader
             >;
         };
     };
