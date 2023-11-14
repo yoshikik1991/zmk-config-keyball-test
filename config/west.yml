@@ -1,7 +1,7 @@
  manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/Broeserl/
+      url-base: https://github.com/Broeserl
   projects:
     - name: zmk
       remote: zmkfirmware
