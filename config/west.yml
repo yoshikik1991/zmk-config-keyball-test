@@ -1,11 +1,11 @@
  manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/yoshikik1991
+      url-base: https://github.com/Broeserl/
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: pmw3389
+      revision: playglound
       import: app/west.yml
   self:
     path: config
