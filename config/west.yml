@@ -5,7 +5,8 @@
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: playglound
+      revision: playground
       import: app/west.yml
   self:
     path: config
+    
